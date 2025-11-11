@@ -7,4 +7,5 @@ jobs:
     steps:
       - name: Mostrar version de java
         run: |
-          echo "Version de java: $(java -v)"
+          echo "Version de java"
+          java -v || echo "Java no instalado"
