@@ -1,0 +1,7 @@
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mostrar fecha y hora
+        run: |
+          echo "Fecha y hora actual: $(date '+%Y-%m-%d %H:%M:%S')"
